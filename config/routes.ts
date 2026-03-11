@@ -43,12 +43,7 @@
 		component: './TodoList',
 	},
 
-	{
-		path: '/trochoidoanso',
-		name: 'Trò chơi đoán số',
-		icon: 'OrderedListOutlined',
-		component: './TroChoiDoanSo',
-	},
+	
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
