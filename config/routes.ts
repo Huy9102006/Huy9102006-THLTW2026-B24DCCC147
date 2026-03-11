@@ -44,10 +44,10 @@
 	},
 
 	{
-		path: '/trochoidoanso',
-		name: 'Trò chơi đoán số',
+		path: '/oantuti',
+		name: 'Trò Oẳn Tù Tì',
 		icon: 'OrderedListOutlined',
-		component: './TroChoiDoanSo',
+		component: './OanTuTi',
 	},
 	// DANH MUC HE THONG
 	// {
