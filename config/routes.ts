@@ -49,19 +49,13 @@
 		icon: 'OrderedListOutlined',
 		component: './OanTuTi',
 	},
-	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
+
+   {
+		path: '/quanlycauhoi',
+		name: 'Quản lý ngân hàng câu hỏi',
+		icon: 'OrderedListOutlined',
+		component: './QuanLyNganHangCauHoi',
+	},
 
 	{
 		path: '/notification',
