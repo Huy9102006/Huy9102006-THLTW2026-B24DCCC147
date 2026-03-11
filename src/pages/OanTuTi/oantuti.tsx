@@ -3,7 +3,6 @@ import { useState } from "react";
 type Choice = "Kéo" | "Búa" | "Bao";
 
 const choices: Choice[] = ["Kéo", "Búa", "Bao"];
-const icons: Record<Choice, string> = { Kéo: "✌️", Búa: "✊", Bao: "🖐️" };
 
 function KetQua(nguoiChoi: Choice, Bot: Choice) {
   if (nguoiChoi === Bot) return "Hòa";
@@ -27,17 +26,17 @@ export default function App() {
     NguoiChoi(luaChon);
     MayChon(mayNgauNhien);
     Ket_Qua(ketQuaMoi);
-    LichSu((cu) => [`${icons[luaChon]} vs ${icons[mayNgauNhien]} → ${ketQuaMoi}`, ...cu]);
+    LichSu((cu) => [`${luaChon} vs ${mayNgauNhien} → ${ketQuaMoi}`, ...cu]);
   }
 
   return (
     <div style={{ maxWidth: 360, margin: "40px auto", fontFamily: "sans-serif", textAlign: "center" }}>
-      <h2>✊ Oẳn Tù Tì</h2>
+      <h2>Oẳn Tù Tì</h2>
 
       <div style={{ display: "flex", gap: 8, justifyContent: "center", margin: "16px 0" }}>
         {choices.map((luaChon) => (
           <button key={luaChon} onClick={() => choi(luaChon)}>
-            {icons[luaChon]} {luaChon}
+            {luaChon}
           </button>
         ))}
       </div>
@@ -45,7 +44,7 @@ export default function App() {
       {ketQua && (
         <p style={{ color: ketQua === "Thắng" ? "green" : ketQua === "Thua" ? "red" : "orange" }}>
           Bạn: {nguoiChon} — Máy: {mayChon} →{" "}
-          <strong>{ketQua === "Thắng" ? "🏆 Thắng!" : ketQua === "Thua" ? "💀 Thua!" : "🤝 Hòa!"}</strong>
+          <strong>{ketQua}</strong>
         </p>
       )}
 
