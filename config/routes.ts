@@ -43,6 +43,12 @@
 		component: './TodoList',
 	},
 
+   {
+		path: '/booking',
+		name: 'App Đặt Lịch Cho Khách Hàng',
+		icon: 'OrderedListOutlined',
+		component: './AppDatLich',
+	},
 	
 	// DANH MUC HE THONG
 	// {
