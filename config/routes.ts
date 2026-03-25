@@ -43,6 +43,13 @@
 		component: './TodoList',
 	},
 
+   {
+		path: '/vanbangtotnghiep',
+		name: 'Quản Lý Văn Bằng Tốt Nghiệp',
+		icon: 'OrderedListOutlined',
+		component: './QuanLyVanBangTotNghiep',
+	},
+
 	
 	// DANH MUC HE THONG
 	// {
