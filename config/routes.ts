@@ -43,6 +43,12 @@
 		component: './TodoList',
 	},
 
+  {
+		path: '/quanlyclb',
+		name: 'Quản Lý Câu Lạc Bộ',
+		icon: 'OrderedListOutlined',
+		component: './QuanLyCLB',
+	},
 	
 	// DANH MUC HE THONG
 	// {
