@@ -42,6 +42,13 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+   
+   {
+		path: '/dulich',
+		name: 'Quản Lý Du Lịch',
+		icon: 'OrderedListOutlined',
+		component: './QuanLyDuLich',
+	},
 
 	
 	// DANH MUC HE THONG
