@@ -43,6 +43,13 @@
 		component: './TodoList',
 	},
 
+  {
+		path: '/quanlyphonghoc',
+		name: 'Quản Lý Phòng Học',
+		icon: 'OrderedListOutlined',
+		component: './QuanLyPhongHoc',
+	},
+
 	
 	// DANH MUC HE THONG
 	// {
