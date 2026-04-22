@@ -43,6 +43,13 @@
 		component: './TodoList',
 	},
 
+   {
+		path: '/blog',
+		name: 'Blog cá nhân',
+		icon: 'OrderedListOutlined',
+		component: './BlogCaNhan',
+	},
+
 	
 	// DANH MUC HE THONG
 	// {
