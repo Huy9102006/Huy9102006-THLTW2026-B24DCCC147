@@ -43,6 +43,12 @@
 		component: './TodoList',
 	},
 
+   {
+		path: '/congvieccanhan',
+		name: 'Công việc cá nhân',
+		icon: 'OrderedListOutlined',
+		component: './CongViecCaNhan',
+	},
 	
 	// DANH MUC HE THONG
 	// {
